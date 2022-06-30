@@ -1,3 +1,7 @@
-.my-data{
+#my-data{
     text-align: center;
+}
+.list{
+    text-align: center;
+    list-style: none;
 }
