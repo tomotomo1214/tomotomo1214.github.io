@@ -4,4 +4,28 @@
 .list{
     text-align: center;
     list-style: none;
+    font-size: 20px;
+}
+#my-data h1{
+    font-size: 50px;
+    font-family: "M PLUS 1p" ;
+}
+#my-data h3{
+    font-size: 30px;
+}
+
+#my-personal-table{
+    font-size: 20px;
+}
+
+.slide-img{ 
+  height: 500px;
+  object-fit: cover;
+}
+
+h3{
+    font-family: "M PLUS Rounded 1c";
+}
+#twitter{
+    font-family: 'Rubik Moonrocks', cursive;
 }

@@ -7,6 +7,9 @@
     <title>佐野智紀のホームページ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Splash&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -32,16 +35,12 @@
     <div id="my-data">
       <h1>佐野智紀</h1>
       <h3>私の情報</h3>
-      <table align="center">
-          <tr>
-              <th>年齢</th>
-              <td>13歳</td>
-          </tr>
-          <tr>
-              <th>都道府県</th>
-              <td>東京都</td>
-          </tr>
+      
+      <table align="center" class="table table-striped" id="my-personal-table">
+        <tr><th>年齢</th><th>13歳</th></tr>
+        <tr><td>都道府県</td><td>東京都</td></tr>
       </table>
+
       <h3>趣味</h3>
       <ul class="list">
           <li>フォートナイト</li>
@@ -49,7 +48,7 @@
           <li>プログラミング</li>
       </ul>
       <h3>SNSリンク</h3>
-      <ul class="list">
+      <ul class="list" id="twitter">
           <li><a href="https://twitter.com/tomokuntv">Twitter</a></li>
       </ul>
       <h3>好きな動画</h3>
@@ -57,6 +56,34 @@
       <h3>通っている学校の場所</h3>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.1775372469876!2d139.78609514526065!3d35.692878919465635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018894c8cf7e7d5%3A0x9041d129696601e3!2z5Lit5aSu5Yy656uL5pel5pys5qmL5Lit5a2m5qCh!5e0!3m2!1sja!2sjp!4v1655375817703!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://s.resemom.jp/imgs/sp/photo/307453.jpg" class="d-block w-100 slide-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.shopify.com/s/files/1/0466/4731/2551/articles/characters01_aff7fbdb-8bf7-4073-b63d-5d421ea2508e_1068x.jpg?v=1623143871 " class="d-block w-100 slide-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://finders.me/files/news/gjc2011_top_2.jpg" class="d-block w-100 slide-img" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">佐野智紀のホームページ</a>
@@ -73,6 +100,7 @@
           </div>
         </div>
       </nav>
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </body> 
