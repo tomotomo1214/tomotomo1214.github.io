@@ -16,6 +16,20 @@
 
 #my-personal-table{
     font-size: 20px;
+    width: 30%;
+    min-width: 300px;
+    border:dashed 1px;
+    border-top:0px ;
+    border-bottom: 0px solid;
+    border-color: black;
+}
+
+#my-personal-table td{
+    border-bottom: 0px solid;
+}
+
+#my-personal-table th{
+    border-bottom: 0px solid;
 }
 
 .slide-img{ 
@@ -28,4 +42,28 @@ h3{
 }
 #twitter{
     font-family: 'Rubik Moonrocks', cursive;
+    font-size: 25px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+#youtube{
+    color: red;
+}
+
+.content{
+    padding: 1em;
+}
+
+#tiktok{
+    color: black;
+    
+}
+
+#instagram{
+    color: white;
+    background: linear-gradient(blue,pink);
+    margin: 3px;
 }
